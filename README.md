@@ -60,6 +60,17 @@
 
 TicWatch Pro 3 中国大陆版没有完整的 Google 服务，因此项目刻意不引入 FusedLocationProvider / Wearable Data Layer。轨迹与设置均不离开手表。
 
+## 下载与源码
+
+- GitHub 仓库：[ThecangShengDance/MiTuFanHang](https://github.com/ThecangShengDance/MiTuFanHang)
+- 正式版 APK：[迷途返航-v1.2.0-release.apk](迷途返航-v1.2.0-release.apk)（release 签名，非 debuggable）
+- APK SHA-256：`1bf504c6a8502a1ca3461f96e2c14f309a09fb3270b6fe092b631324ff41cc4d`
+
+```bash
+git clone https://github.com/ThecangShengDance/MiTuFanHang.git
+cd MiTuFanHang
+```
+
 ## 构建
 
 环境要求：
