@@ -30,3 +30,6 @@ keystore/*.keystore
 
 # Temporary GitHub auth files
 .github-*
+
+# local build/debug caches
+.swift-cache/
