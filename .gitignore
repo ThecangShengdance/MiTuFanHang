@@ -27,3 +27,6 @@ keystore/*.keystore
 *.apk
 *.aab
 .local-backup/
+
+# Temporary GitHub auth files
+.github-*
