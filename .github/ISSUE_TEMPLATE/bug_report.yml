@@ -1,0 +1,34 @@
+name: Bug 报告
+description: 报告可复现的问题
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: 感谢反馈。请先确认使用的是最新版本，并尽量附上截图/录屏。
+  - type: input
+    id: device
+    attributes:
+      label: 手表型号与系统
+      placeholder: "例如 TicWatch Pro 3 中国大陆版 / Wear OS 2.38 / Android 9"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      placeholder: "1. 打开...\n2. 点击...\n3. 看到..."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望结果
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际结果
+    validations:
+      required: true

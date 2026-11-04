@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="bg">#FF050807</color>
+    <color name="mint">#FF57E6A8</color>
+    <color name="mint_dim">#3357E6A8</color>
+    <color name="amber">#FFFFC857</color>
+    <color name="text_primary">#FFF4FBF7</color>
+    <color name="text_secondary">#FF9DB1A7</color>
+    <color name="panel">#E6141C18</color>
+    <color name="panel_stroke">#FF2B3D35</color>
+    <color name="danger">#FFFF8A80</color>
+</resources>

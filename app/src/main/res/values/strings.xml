@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">迷途返航</string>
+
+    <string name="start_record">开始记录</string>
+    <string name="start_return">开始返航</string>
+    <string name="stop_return">结束返航</string>
+    <string name="stop_record">结束</string>
+    <string name="settings">设置</string>
+    <string name="back">返回</string>
+
+    <string name="state_idle">等待开始</string>
+    <string name="state_recording">记录中</string>
+    <string name="state_returning">返航中</string>
+    <string name="state_arrived">已回到起点</string>
+    <string name="hint_idle">点按开始记录</string>
+    <string name="hint_recording">返航会指向起点</string>
+    <string name="hint_returning">跟着箭头走回起点</string>
+
+    <string name="gps_waiting">正在搜星…</string>
+    <string name="gps_good">GPS 良好</string>
+    <string name="gps_weak">GPS 较弱</string>
+    <string name="gps_off">定位未开启</string>
+
+    <string name="permission_title">需要定位权限</string>
+    <string name="permission_message">用于记录运动轨迹并在返航时指向起点。请允许“位置”权限。</string>
+    <string name="permission_grant">去授权</string>
+    <string name="permission_denied">没有定位权限，无法记录轨迹</string>
+    <string name="location_disabled_title">定位服务未开启</string>
+    <string name="location_disabled_message">请打开手表的定位服务，并在户外空旷处等待搜星。</string>
+    <string name="location_settings">打开设置</string>
+    <string name="start_anyway">仍要开始</string>
+
+    <string name="restore_title">发现未结束的轨迹</string>
+    <string name="restore_message">上次记录还没有结束，是否继续？</string>
+    <string name="restore_continue">继续记录</string>
+    <string name="restore_discard">放弃</string>
+
+    <string name="finish_title">本次记录</string>
+    <string name="finish_message">距离 %1$s\n用时 %2$s\n轨迹点 %3$d</string>
+    <string name="finish_ok">好</string>
+    <string name="stop_confirm_title">结束记录？</string>
+    <string name="stop_confirm_message">轨迹会保存，之后仍可查看本次路线。</string>
+    <string name="confirm">结束</string>
+    <string name="cancel">取消</string>
+    <string name="track_saved">轨迹已保存</string>
+
+    <string name="notification_channel">轨迹记录</string>
+    <string name="notification_channel_desc">记录轨迹与返航时显示常驻通知</string>
+    <string name="notification_recording">正在记录轨迹</string>
+    <string name="notification_returning">正在返航</string>
+    <string name="notification_stop">结束</string>
+    <string name="notification_open">打开迷途返航</string>
+
+    <string name="settings_title">设置</string>
+    <string name="setting_shape">表盘形状</string>
+    <string name="setting_shape_auto">自动（%1$s）</string>
+    <string name="setting_auto">自动</string>
+    <string name="setting_shape_fixed">已固定为%1$s</string>
+    <string name="setting_shape_round">圆形</string>
+    <string name="setting_shape_square">方形</string>
+    <string name="setting_keep_awake">屏幕常亮</string>
+    <string name="setting_heading_up">地图朝向</string>
+    <string name="setting_heading_up_on">朝向朝上</string>
+    <string name="setting_heading_up_off">正北朝上</string>
+    <string name="setting_vibrate">震动提示</string>
+    <string name="setting_interval">定位间隔</string>
+    <string name="setting_on">开</string>
+    <string name="setting_off">关</string>
+    <string name="setting_seconds">%1$d 秒</string>
+    <string name="setting_seconds_1">1 秒</string>
+    <string name="setting_seconds_2">2 秒</string>
+    <string name="setting_seconds_5">5 秒</string>
+    <string name="setting_reset">恢复默认设置</string>
+    <string name="setting_reset_done">已恢复默认设置</string>
+    <string name="setting_reset_confirm">恢复默认设置？</string>
+    <string name="setting_about">关于</string>
+    <string name="setting_about_text">迷途返航 v%1$s\nAndroid %2$s（API %3$d）\n%4$s\n手表本地记录，不上传数据</string>
+    <string name="setting_self_test">测试模式</string>
+    <string name="setting_terminate">终止程序运行</string>
+    <string name="setting_terminate_confirm">停止定位、常亮和后台服务，并退出应用？未完成的轨迹会保留。</string>
+    <string name="terminate">终止</string>
+    <string name="setting_shape_note">形状修改后，返回主界面生效</string>
+    <string name="setting_clear_active">删除未完成的轨迹</string>
+    <string name="setting_clear_active_done">已删除</string>
+
+    <string name="self_test_title">设备自检</string>
+    <string name="self_test_summary">%1$d 项正常 · %2$d 项注意 · %3$d 项失败</string>
+    <string name="self_test_checking">正在读取传感器…</string>
+    <string name="self_test_rerun">重新检测</string>
+    <string name="self_test_run_demo">运行演示</string>
+    <string name="self_test_demo_title">演示完成</string>
+    <string name="self_test_demo_done">模拟记录 %1$d 个轨迹点，已完成返航并到达起点。轨迹、朝向和返航指引正常。</string>
+    <string name="self_test_demo_cancel">演示已取消</string>
+    <string name="self_test_demo_hint">模拟位置 · 返回键取消</string>
+    <string name="self_test_demo_prepare">准备记录…</string>
+    <string name="self_test_recording">记录中 · 已走 %1$s · %2$d 点</string>
+    <string name="self_test_returning">返航中 · 距起点 %1$s</string>
+    <string name="self_test_arrived">已回到起点</string>
+    <string name="self_test_permission_title">需要定位权限</string>
+    <string name="self_test_permission_message">测试演示需要精确位置权限，用来验证定位和前台服务。请允许“位置”权限。</string>
+    <string name="self_test_permission_grant">去授权</string>
+    <string name="self_test_busy">记录进行中</string>
+    <string name="self_test_busy_message">请先在主界面结束当前记录，再运行测试演示。</string>
+    <string name="self_test_demo_failed">演示未完成</string>
+    <string name="self_test_demo_failed_message">演示未能启动或已中断。请确认定位权限，并查看自检结果。</string>
+
+    <string name="cd_settings">设置</string>
+    <string name="cd_compass">打开指南针</string>
+    <string name="cd_compass_warn">指南针需要校准，点按打开</string>
+    <string name="compass_title">指南针</string>
+    <string name="compass_waiting">正在读取指南针…</string>
+    <string name="compass_reading">%1$d° · %2$s</string>
+    <string name="compass_ok">读数正常 · %1$s</string>
+    <string name="compass_low">读数异常 · 请画 8 字校准</string>
+    <string name="compass_hint_ok">远离金属和磁铁，表盘朝上</string>
+    <string name="compass_hint_low">手持手表在空中缓慢画 8 字 2–3 次</string>
+    <string name="compass_no_magnetometer">无磁力计 · 静止时无法测向</string>
+    <string name="compass_no_magnetometer_hint">移动后可用 GPS 航向；返航仍会指向起点</string>
+    <string name="compass_no_magnetometer_help_title">无磁力计</string>
+    <string name="compass_no_magnetometer_help">这块手表没有磁力计，静止时无法测出绝对方向，8 字校准也无法解决。移动时 App 使用 GPS 航向，返航箭头仍指向起点。</string>
+    <string name="compass_gps_ok">GPS 航向 · 移动中</string>
+    <string name="compass_gps_hint">静止时无法测向，请保持移动</string>
+    <string name="compass_help_title">校准指南针</string>
+    <string name="compass_help_message">远离金属、磁铁和电器，手持手表在空中缓慢画 8 字 2–3 次，然后保持表盘朝上。读数稳定后再返航。</string>
+    <string name="compass_help_ok">知道了</string>
+    <string name="compass_accuracy_high">精度高</string>
+    <string name="compass_accuracy_medium">精度一般</string>
+    <string name="compass_accuracy_low">精度低</string>
+    <string name="compass_accuracy_unreliable">不可靠</string>
+    <string name="calibration_title">指南针需要校准</string>
+    <string name="calibration_message">返航箭头依赖手表航向。当前读数不稳定，建议先打开指南针，按提示画 8 字校准。</string>
+    <string name="calibration_go">去校准</string>
+    <string name="calibration_later">稍后</string>
+    <string name="cd_map">轨迹地图</string>
+    <string name="arrived">已到起点</string>
+    <string name="to_start">起点</string>
+    <string name="north">N</string>
+
+    <string name="state_last_track">上次轨迹</string>
+    <string name="state_searching">正在搜星</string>
+    <string name="state_weak">信号较弱</string>
+    <string name="info_elapsed">%1$s · %2$s</string>
+    <string name="info_preview">%1$s · 轨迹点 %2$d</string>
+    <string name="info_return">距 %1$s · %2$s</string>
+    <string name="info_return_off">偏离路线 · 距 %1$s</string>
+    <string name="info_return_arrived">已回到起点</string>
+    <string name="info_return_only">距 %1$s</string>
+    <string name="info_waiting">等待定位…</string>
+    <string name="error_title">无法继续</string>
+    <string name="ok">好</string>
+</resources>
