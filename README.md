@@ -62,9 +62,9 @@ TicWatch Pro 3 中国大陆版没有完整的 Google 服务，因此项目刻意
 
 ## 下载与源码
 
-- GitHub 仓库：[ThecangShengDance/MiTuFanHang](https://github.com/ThecangShengdance/MiTuFanHang)
-- 正式版APK：[前往 Release 页面获取安装包](https://github.com/ThecangShengdance/MiTuFanHang/releases)
-- APK SHA-256：`1bf504c6a8502a1ca3461f96e2c14f309a09ffb3270b6fe092b631324ff41cc4d`
+- GitHub 仓库：[ThecangShengDance/MiTuFanHang](https://github.com/ThecangShengDance/MiTuFanHang)
+- 正式版 APK：[前往 Release 页面获取安装包](https://github.com/ThecangShengDance/MiTuFanHang/releases)
+- APK SHA-256：`1bf504c6a8502a1ca3461f96e2c14f309a09fb3270b6fe092b631324ff41cc4d`
 
 ```bash
 git clone https://github.com/ThecangShengDance/MiTuFanHang.git
@@ -221,3 +221,11 @@ app/src/test/java/com/mitufanhang/wear/
 ## 许可证
 
 本项目使用 [MIT License](LICENSE) 开源。
+
+release APK 中还包含 Kotlin Standard Library 2.2.10 与 JetBrains Annotations 13.0，
+均以 Apache License 2.0 许可；第三方组件归属与完整许可证见
+[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) 和
+[LICENSES/Apache-2.0.txt](LICENSES/Apache-2.0.txt)。
+
+Wear OS 是 Google LLC 的商标；TicWatch 是 Mobvoi 的商标。本应用为独立开发，
+与上述公司无隶属、赞助或官方合作关系。
